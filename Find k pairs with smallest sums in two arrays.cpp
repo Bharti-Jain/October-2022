@@ -39,4 +39,7 @@ int main()
 	int n2 = sizeof(arr2) / sizeof(arr2[0]);
 
 	int k = 4;
+	kSmallestPair( arr1, n1, arr2, n2, k);
+
+	return 0;
 }
