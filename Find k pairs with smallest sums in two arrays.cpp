@@ -1,5 +1,4 @@
 #include<bits/stdc++.h>
-
 using namespace std;
 
 void kSmallestPair(int arr1[], int n1, int arr2[], int n2, int k)
@@ -40,7 +39,4 @@ int main()
 	int n2 = sizeof(arr2) / sizeof(arr2[0]);
 
 	int k = 4;
-	kSmallestPair( arr1, n1, arr2, n2, k);
-
-	return 0;
 }
