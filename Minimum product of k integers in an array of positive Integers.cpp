@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-int minProduct(int arr[], int n, int k)
 {
 	priority_queue<int, vector<int>, greater<int> > pq;
 	for (int i = 0; i < n; i++)
